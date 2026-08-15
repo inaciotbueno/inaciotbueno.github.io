@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORBIT</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="header-slide  image1"></div>
+            <div class="header-slide  image2"></div>
+            <img src="images/Imagem1.png" alt="Header Image" class="header-overlay-image">
+            <h1 class="site-title">Inacio Bueno, PhD</h1>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="navbar">
+        <button class="nav-btn" onclick="showSection('about')">About</button>
+        <button class="nav-btn" onclick="showSection('research')">Research</button>
+        <button class="nav-btn" onclick="showSection('contact')">Contact</button>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="content">
+        <section id="about" class="page-section active">
+
+            <div class="bio-container">
+                <div class="side-image left-image">
+                    <img src="images/forest-left.jpg" alt="Forest Scene Left">
+                </div>
+                <div class="bio-text">
+                    <h2>About Me</h2>
+
+                    Remote sensing scientist with ten years of experience researching a variety of topics related to
+                    environmental monitoring, Earth observation, forest resources, and geosciences. Holding a bachelor's
+                    degree in Forest Engineering from the Federal University of Lavras (UFLA), Brazil, in 2015, I also
+                    had the opportunity to be a visiting scholar at the University of Calgary, Canada, through the
+                    Science without Borders/CNPq program. Master in Forest Engineering from UFLA (2018) in the field
+                    of Remote Sensing and Geographic Information Systems, focused on the detection of changes in
+                    vegetation. PhD in Forest Engineering from UFLA (2022), with a PDSE-CAPES sandwich period at
+                    the University of Calgary, Canada, in the field of Remote Sensing and Geographic Information
+                    Systems,
+                    focused on optimizing vegetation change detection using multi-source remote sensing data and
+                    algorithms.
+                    Postdoctoral researcher at the State University of Campinas (Unicamp) (2023), working on monitoring
+                    integrated crop-livestock
+                    systems using remote sensing images with high spatial and temporal resolution. Currently, I am a
+                    postdoctoral
+                    researcher at the University of Florida (UF), delving into the synergism of LiDAR, radar,
+                    and optical data for assessing the impact of hurricanes on forest ecosystems.
+
+                    In addition to my research, I have experience teaching and mentoring undergraduate and graduate
+                    students
+                    at UF in the areas of remote sensing, geospatial analysis, and environmental data science. I have
+                    extensive
+                    experience in applied remote sensing, LiDAR, geographic information systems, vegetation mapping and
+                    monitoring,
+                    change detection, spatial modeling of environmental and forest attributes, and machine and deep
+                    learning.
+                    </p>
+                </div>
+                <div class="bio-image">
+                    <img src="images/profile.jpg" alt="Inacio Bueno">
+                </div>
+
+                <div class="side-image right-image">
+                    <img src="images/forest-right.jpg" alt="Forest Scene Right">
+                </div>
+            </div>
+        </section>
+
+        <section id="research" class="page-section">
+
+            <h2>Peer-Reviewed Publications</h2>
+            <div class="research-container">
+                <div class="publications">
+                    <div class="publication-year">
+                        <h3>2026</h3>
+                        <!-- 27 -->
+                        <div class="publication">
+                            <p>
+                                Gaskins, A.J.; Xia, J.; <u>Bueno, I.T.</u>; Silva, C.A. (2026).
+                                <strong>Advancing terrestrial laser scanning for 3D classification of Spanish moss
+                                    (Tillandsia usneoides L.) using unsupervised, machine learning, and deep learning
+                                    methods.</strong>
+                                <span class="journal">Scientific Reports</span>, 16, 18295.
+                                <a href="https://doi.org/10.1038/s41598-026-49230-7" target="_blank" class="doi-link">
+                                    https://doi.org/10.1038/s41598-026-49230-7
+                                </a>
+                            </p>
+                        </div>
+
+                        <!-- 26 -->
+                        <div class="publication">
+                            <p>
+                                Silva, C.A.; Neuenschwander, A.; Hamamura, C.; Godinho, S.; Brock, K.M.;
+                                Malambo, L.; Narine, L.; Atkins, J.W.; Borak, J.S.; Popescu, S.;
+                                <u>Bueno, I.T.</u>; Rezende, L.B.; Santoro, G.B.; Dalla Corte, A.P.;
+                                Alvites Diaz, C.I.; Mashhadi, N.; Cardil, A.; Hudak, A.T.; Korhonen, L.;
+                                Sharma, A.; Cannon, J.B.; Mohan, M.; Wan Mohd Jaafar, W.S.W.;
+                                Liesenberg, V.; Klauberg, C. (2026).
+                                <strong>Beyond Ice: NASA's ICESat-2 spaceborne lidar mission for land and vegetation
+                                    applications.</strong>
+                                <span class="journal">IEEE Geoscience and Remote Sensing Magazine</span>, 14, 3, pp.
+                                442-473.
+                                <a href="https://doi.org/10.1109/MGRS.2026.3666794" target="_blank" class="doi-link">
+                                    https://doi.org/10.1109/MGRS.2026.3666794
+                                </a>
+                            </p>
+                        </div>
+
+
+
+                        <h3>2025</h3>
+                        <!-- 25 -->
+                        <div class="publication">
+                            <p>
+                                Batista, E.K.L.; Hudak, A.T.; Atkins, J.W.; Broadbent, E.N.; Brock, K.M.;
+                                Campbell, M.J.; Sanchez-Lopez, N.; Schlickmann, M.B.; Mauro, F.; Susaeta, A.;
+                                Rowell, E.; Hamamura, C.; Dalla Corte, A.P.; La Puma, I.; Parsons, R.A.; Bright, B.;
+                                Vogel, J.; <u>Bueno, I.T.</u>; Silva, G.M.; Klauberg, C.; Xia, J.; Eastburn, J.F.;
+                                Rocha, K.D.; Silva, C.A. (2025).
+                                <strong>Comparing Terrestrial and Mobile Laser Scanning Approaches for Multi-Layer Fuel
+                                    Load
+                                    Prediction in the Western United States.</strong>
+                                <span class="journal">Remote Sensing</span>, 17, 2757.
+                                <a href="https://doi.org/10.3390/rs17162757" target="_blank" class="doi-link">
+                                    https://doi.org/10.3390/rs17162757
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 24 -->
+                        <div class="publication">
+                            <p>
+                                <u>Bueno, I.T.</u>; Silva, C.A.; Hamamura, C.; Donovan, V.M.; Sharma, A.; Qiu, J.;
+                                Xia, J.; Brock, K.M.; Schlickmann, M.B.; Atkins, J.W.; Valle, D.R.; Vogel, J.; Susaeta,
+                                A.;
+                                Karasinski, M.A.; Klauberg, C. (2025).
+                                <strong>Aboveground biomass density maps for post-hurricane Ian forest monitoring in
+                                    Florida.</strong>
+                                <span class="journal">Scientific Data</span>, 12, 1189.
+                                <a href="https://doi.org/10.1038/s41597-025-05464-0" target="_blank" class="doi-link">
+                                    https://doi.org/10.1038/s41597-025-05464-0
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 23 -->
+                        <div class="publication">
+                            <p>
+                                Cordeiro, N.G.; Pereira, K.M.G.; <u>Bueno, I.T.</u>; Rodrigues, A.F.;
+                                Terra, M.C.N.S.; Mello, J.M. (2025).
+                                <strong>The effect of seasonal droughts on remotely sensed-based predictive variables of
+                                    forest
+                                    aboveground biomass.</strong>
+                                <span class="journal">Advances in Space Research</span>.
+                                <a href="https://doi.org/10.1016/j.asr.2025.07.008" target="_blank" class="doi-link">
+                                    https://doi.org/10.1016/j.asr.2025.07.008
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 22 -->
+                        <div class="publication">
+                            <p>
+                                Xia, J.; Martin, T.A.; Peter, G.F.; Brock, K.M.; Atkins, J.W.; Gitzendanner, M.A.;
+                                <u>Bueno, I.T.</u>; Calders, K.; Dalla Corte, A.P.; Hudak, A.T.;
+                                Schlickmann, M.B.; Andreu, M.G.; Hamamura, C.; Klauberg, C.; Silva, C.A. (2025).
+                                <strong>Combined impact of semantic segmentation and quantitative structure modelling of
+                                    Southern
+                                    pine trees using terrestrial laser scanning.</strong>
+                                <span class="journal">Scientific Reports</span>, 15, 24427.
+                                <a href="https://doi.org/10.1038/s41598-025-09681-w" target="_blank" class="doi-link">
+                                    https://doi.org/10.1038/s41598-025-09681-w
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 21 -->
+                        <div class="publication">
+                            <p>
+                                <u>Bueno, I.T.</u>; Silva, C.A.; Schlickmann, M.B.; Donovan, V.M.;
+                                Atkins, J.W.; Brock, K.M.; Xia, J.; Valle, D.R.; Qiu, J.; Vogel, J.; Susaeta, A.;
+                                Sharma, A.; Klauberg, C.; Mohan, M.; Dalla Corte, A.P. (2025).
+                                <strong>Upscaling Frameworks Drive Prediction Accuracy and Uncertainty When Mapping
+                                    Aboveground
+                                    Biomass Density from the Synergism of Spaceborne LiDAR, SAR, and Passive Optical
+                                    Data.</strong>
+                                <span class="journal">Remote Sensing</span>, 17, 2340.
+                                <a href="https://doi.org/10.3390/rs17142340" target="_blank" class="doi-link">
+                                    https://doi.org/10.3390/rs17142340
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 20 -->
+                        <div class="publication">
+                            <p>
+                                <u>Bueno, I.T.</u>; Silva, C.A.; Anderson-Teixeira, K.; Magee, L.; Zheng, C.;
+                                Broadbent, E.N.; Zambrano, A.M.A.; Johnson, D.J. (2025).
+                                <strong>Aboveground Biomass and Tree Mortality Revealed Through Multi-Scale LiDAR
+                                    Analysis.</strong>
+                                <span class="journal">Remote Sensing</span>, 17, 796.
+                                <a href="https://doi.org/10.3390/rs17050796" target="_blank" class="doi-link">
+                                    https://doi.org/10.3390/rs17050796
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 19 -->
+                        <div class="publication">
+                            <p>
+                                Schlickmann, M.B.; <u>Bueno, I.T.</u>; Valle, D.R.; Hammond, W.M.; Prichard, S.J.;
+                                Hudak, A.T.; Klauberg, C.; Karasinski, M.A.; Brock, K.M.; Rocha, K.D.; Xia, J.;
+                                Leite, R.V.; Higuchi, P.; Silva, A.C.; Silva, G.M.; Cova, G.R.; Silva, C.A. (2025).
+                                <strong>Statewide Forest Canopy Cover Mapping of Florida Using Synergistic Integration
+                                    of
+                                    Spaceborne LiDAR, SAR, and Optical Imagery.</strong>
+                                <span class="journal">Remote Sensing</span>, 17, 320.
+                                <a href="https://doi.org/10.3390/rs17020320" target="_blank" class="doi-link">
+                                    https://doi.org/10.3390/rs17020320
+                                </a>
+                            </p>
+                        </div>
+                        <h3>2024</h3>
+                        <!-- 18 -->
+                        <div class="publication">
+                            <p>
+                                Werner, J.P.; Belgiu, M.; <u>Bueno, I.T.</u>; Reis. A.A.; Toro, A.P.S.D.D.; Antunes,
+                                J.F.G.;
+                                Stein, A.; Lamparelli, R.A.C.; Magalhães, P.S.G.; Coutinho, A.C.; Esquerdo, J.C.D.M.;
+                                Figueiredo, G.K.D.A. (2024).
+                                <strong>Mapping Integrated Crop-Livestock Systems Using Fused Sentinel-2 and PlanetScope
+                                    Time Series and Deep Learning.</strong>
+                                <span class="journal">Remote Sensing</span>, 16, 1421.
+                                <a href="https://doi.org/10.3390/rs16081421" target="_blank" class="doi-link">
+                                    https://doi.org/10.3390/rs16081421
+                                </a>
+                            </p>
+                        </div>
+                        <h3>2023</h3>
+                        <!-- 17 -->
+                        <div class="publication">
+                            <p>
+                                <u>Bueno, I.T.</u>; Antunes, J.F.G.; Reis, A.A.; Werner, J.P.; Toro, A.P S.D.D.;
+                                Figueiredo, G.K.D.A.;
+                                Esquerdo, J.C.D.M.; Lamparelli, R.A.C.; Coutinho, A.C.; Magalhães, P.S.G. (2023).
+                                <strong>Mapping integrated crop-livestock systems in Brazil with planetscope time series
+                                    and deep learning.</strong>
+                                <span class="journal">Remote Sensing of Environment</span>, 299, 113886.
+                                <a href="https://10.1016/j.rse.2023.113886" target="_blank" class="doi-link">
+                                    https://10.1016/j.rse.2023.113886
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 16 -->
+                        <div class="publication">
+                            <p>
+                                Monteiro, M.E.C.; Avalos, F.P.; Pelegrino, M.H.P.; Vilela, R.B.; Acerbi Júnior, F.W.;
+                                <u>Bueno, I.T.</u>; Li, N.; Silva, S.H.G.; Giasson, E.; Curi, N.; Menezes, M.D. (2023).
+                                <strong>Digital mapping of soil classes in Southeast Brazil: environmental covariate
+                                    selection, accuracy, and uncertainty.</strong>
+                                <span class="journal">Journal of South American Earth Sciences</span>, 132, 104640.
+                                <a href="https://doi.org/10.1016/j.jsames.2023.104640" target="_blank"
+                                    class="doi-link">https://doi.org/10.1016/j.jsames.2023.104640</a>
+                            </p>
+                        </div>
+                        <!-- 15 -->
+                        <div class="publication">
+                            <p>
+                                <u>Bueno, I.T.</u>; McDermid, G.J.; Hird, J.N.; Acerbi Junior, F.W. (2023).
+                                <strong>A large-scale disturbance mapping ensemble through data-driven
+                                    regionalization.</strong>
+                                <span class="journal">International Journal of Remote Sensing</span>, 44(12), 3700-3725.
+                                <a href="https://doi.org/10.1080/01431161.2023.2225711" target="_blank"
+                                    class="doi-link">https://doi.org/10.1080/01431161.2023.2225711</a>
+                            </p>
+                        </div>
+                        <!-- 14 -->
+                        <div class="publication">
+                            <p>
+                                <u>Bueno, I.T.</u>; Antunes, J.F.G.; Toro, A.P.S.D.D.; Werner, J.P.; Coutinho, A.C.;
+                                Figueiredo, G.K.D.A.; Lamparelli, R.A.C.; Esquerdo, J.C.D.M.; Magalhães, P.S.G. (2023).
+                                <strong>Land use/land cover classification in a heterogeneous agricultural landscape
+                                    using PlanetScope data.</strong>
+                                <span class="journal">The International Archives of the Photogrammetry Remote Sensing
+                                    and Spatial Information Sciences</span>, XLVIII-M-1-2023, 49-55.
+                                <a href="https://doi.org/10.5194/isprs-archives-XLVIII-M-1-2023-49-2023" target="_blank"
+                                    class="doi-link">https://doi.org/10.5194/isprs-archives-XLVIII-M-1-2023-49-2023</a>
+                            </p>
+                        </div>
+                        <!-- 13 -->
+                        <div class="publication">
+                            <p>
+                                Toro, A.P.S.D.D.; <u>Bueno, I.T.</u>; Werner, J.P.; Antunes, J.F.G.; Lamparelli, R.A.C.;
+                                Coutinho, A.C.; Esquerdo, J.C.D.M.; Magalhães, P.S.G.; Figueiredo, G.K.D.A. (2023).
+                                <strong>SAR and optical data applied to early-season mapping of integrated
+                                    crop-livestock systems using deep and machine learning algorithms.</strong>
+                                <span class="journal">Remote Sensing</span>, 15(4), 1130.
+                                <a href="https://doi.org/10.3390/rs15041130" target="_blank"
+                                    class="doi-link">https://doi.org/10.3390/rs15041130</a>
+                            </p>
+                        </div>
+                        <h3>2020</h3>
+                        <!-- 12 -->
+                        <div class="publication">
+                            <p>
+                                <u>Bueno, I.T.</u>; McDermid, G.J.; Silveira, E.M.O.; Hird, J.N.; Domingos, B.I.; Acerbi
+                                Junior, F.W. (2020).
+                                <strong>Spatial Agreement among Vegetation Disturbance Maps in Tropical Domains Using
+                                    Landsat Time Series.</strong>
+                                <span class="journal">Remote Sensing</span>, 12, 2948.
+                                <a href="https://doi.org/10.3390/rs12182948" target="_blank" class="doi-link">
+                                    https://doi.org/10.3390/rs12182948
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 11 -->
+                        <div class="publication">
+                            <p>
+                                Almeida, F.C.; Silveira, E.M.O.; Acerbi Junior, F.W.; França, L.C.J.; <u>Bueno,
+                                    I.T.</u>; Terra, B.J.O. (2020).
+                                <strong>Análise Multicritério na Definição de Áreas Prioritárias para Recuperação
+                                    Florestal na Bacia do Rio Doce, em Minas Gerais.</strong>
+                                <span class="journal">Nativa</span>, 8, 81.
+                                <a href="https://doi.org/10.31413/nativa.v8i1.8130" target="_blank" class="doi-link">
+                                    https://doi.org/10.31413/nativa.v8i1.8130
+                                </a>
+                            </p>
+                        </div>
+                        <h3>2019</h3>
+                        <!-- 10 -->
+                        <div class="publication">
+                            <p>
+                                <u>Bueno, I.T.</u>; Acerbi Junior, F.W.; Silveira, E.M.O.; Mello, J.M.; Carvalho,
+                                L.M.T.; Gomide, L.R.; Withey, K.; Scolforo, J.R.S. (2019).
+                                <strong>Object-Based Change Detection in the Cerrado Biome Using Landsat Time
+                                    Series.</strong>
+                                <span class="journal">Remote Sensing</span>, 11, 570.
+                                <a href="https://doi.org/10.3390/rs11050570" target="_blank" class="doi-link">
+                                    https://doi.org/10.3390/rs11050570
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 9 -->
+                        <div class="publication">
+                            <p>
+                                Pereira, E.A.; Silveira, E.M.O.; <u>Bueno, I.T.</u>; Acerbi Junior, F.W. (2019).
+                                <strong>Spatial and spectral remote sensing features to detect deforestation in
+                                    Brazilian Savannas.</strong>
+                                <span class="journal">Advances in Forestry Science</span>, 6, 775.
+                                <a href="https://doi.org/10.34062/afs.v6i4.7525" target="_blank" class="doi-link">
+                                    https://doi.org/10.34062/afs.v6i4.7525
+                                </a>
+                            </p>
+                        </div>
+                        <h3>2018</h3>
+                        <!-- 8 -->
+                        <div class="publication">
+                            <p>
+                                Silva, R.A.; Pereira, J.A.A.; <u>Bueno, I.T.</u>; Borges, L.A.C.; Acerbi Junior, F.W.
+                                (2018).
+                                <strong>The landscape of Ouro Preto (MG, Brazil) through analysis of anthropic
+                                    activities in relation to the environmental conservation.</strong>
+                                <span class="journal">Floresta</span>, 48, 343.
+                                <a href="https://doi.org/10.5380/rf.v48i3.54165" target="_blank" class="doi-link">
+                                    https://doi.org/10.5380/rf.v48i3.54165
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 7 -->
+                        <div class="publication">
+                            <p>
+                                Terra, M.C.N.S.; Santos, R.M.; Prado Junior, J.A.; Mello, J.M.; Scolforo, J.R.S.;
+                                Fontes, M.A.L.; Schiavini, I.; Reis, A.A.; <u>Bueno, I.T.</u>; Magnago, L.F.S.; Ter
+                                Steege, H. (2018).
+                                <strong>Water availability drives gradients of tree diversity, structure and functional
+                                    traits in the Atlantic Cerrado-Caatinga transition, Brazil.</strong>
+                                <span class="journal">Journal of Plant Ecology</span>, 11, 803-814.
+                                <a href="https://doi.org/10.1093/jpe/rty017" target="_blank" class="doi-link">
+                                    https://doi.org/10.1093/jpe/rty017
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 6 -->
+                        <div class="publication">
+                            <p>
+                                Pompeu, P.V.; Fontes, M.A.L.; Mulligan, M.; <u>Bueno, I.T.</u>; Siqueira, M.F.; Acerbi
+                                Junior, F.W.; Kamino, L.H.Y.; Waterloo, M.J.; Bruijnzeel, L.A. (2018).
+                                <strong>Assessing Atlantic cloud forest extent and protection status in southeastern
+                                    Brazil.</strong>
+                                <span class="journal">Journal for Nature Conservation</span>, 43, 146-155.
+                                <a href="https://doi.org/10.1016/j.jnc.2018.04.003" target="_blank" class="doi-link">
+                                    https://doi.org/10.1016/j.jnc.2018.04.003
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 5 -->
+                        <div class="publication">
+                            <p>
+                                Silveira, E.M.O.; <u>Bueno, I.T.</u>; Acerbi Junior, F.W.; Mello, J.M.; Scolforo,
+                                J.R.S.; Wulder, M.A. (2018).
+                                <strong>Using spatial features to reduce the impacts of seasonality for detecting
+                                    tropical changes from Landsat time series.</strong>
+                                <span class="journal">Remote Sensing</span>, 10, 808.
+                                <a href="https://doi.org/10.3390/rs10060808" target="_blank" class="doi-link">
+                                    https://doi.org/10.3390/rs10060808
+                                </a>
+                            </p>
+                        </div>
+                        <h3>2017</h3>
+                        <!-- 4 -->
+                        <div class="publication">
+                            <p>
+                                Silveira, E.M.O.; Acerbi Junior, F.W.; Mello, J.M.; <u>Bueno, I.T.</u> (2017).
+                                <strong>Object-based change detection using semivariogram indices derived from NDVI
+                                    images: The environmental disaster in Mariana, Brazil.</strong>
+                                <span class="journal">Ciência e Agrotecnologia</span>, 41, 554-564.
+                                <a href="https://doi.org/10.1590/1413-70542017415009817" target="_blank"
+                                    class="doi-link">
+                                    https://doi.org/10.1590/1413-70542017415009817
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 3 -->
+                        <div class="publication">
+                            <p>
+                                Silva, M.S.; <u>Bueno, I.T.</u>; Acerbi Junior, F.W.; Borges, L.A.C.; Calegario, N.
+                                (2017).
+                                <strong>Avaliação da cobertura do solo como indicador de gestão de recursos hídricos: um
+                                    caso de estudo na sub-bacia do Córrego dos Bois, Minas Gerais.</strong>
+                                <span class="journal">Engenharia Sanitária e Ambiental</span>, 22, 445-452.
+                                <a href="https://doi.org/10.1590/s1413-41522017149673" target="_blank" class="doi-link">
+                                    https://doi.org/10.1590/s1413-41522017149673
+                                </a>
+                            </p>
+                        </div>
+                        <!-- 2 -->
+                        <div class="publication">
+                            <p>
+                                Batista, P.V.G.; Silva, M.L.N.; Silva, B.P.C.; Curi, N.; <u>Bueno, I.T.</u>; Acerbi
+                                Junior, F.W.; Davies, J.; Quinton, J.N. (2017).
+                                <strong>Modelling spatially distributed soil losses and sediment yield in the Upper
+                                    Grande River Basin.</strong>
+                                <span class="journal">CATENA</span>, 157, 139-150.
+                                <a href="https://doi.org/10.1016/j.catena.2017.05.025" target="_blank" class="doi-link">
+                                    https://doi.org/10.1016/j.catena.2017.05.025
+                                </a>
+                            </p>
+                        </div>
+                        <h3>2015</h3>
+                        <!-- 1 -->
+                        <div class="publication">
+                            <p>
+                                Hird, J.N.; Castilla, G.; McDermid, G.J.; <u>Bueno, I.T.</u> (2015).
+                                <strong>A simple transformation for visualizing non-seasonal landscape change from dense
+                                    time series of satellite data.</strong>
+                                <span class="journal">IEEE Journal of Selected Topics in Applied Earth Observations and
+                                    Remote Sensing</span>, 9, 1-12.
+                                <a href="https://doi.org/10.1109/JSTARS.2015.2419594" target="_blank" class="doi-link">
+                                    https://doi.org/10.1109/JSTARS.2015.2419594
+                                </a>
+                            </p>
+                        </div>
+
+                        <h3>Under review or preparation</h3>
+                        <div class="publication">
+                            <p>
+                                Bueno. I.T. et al.
+                                <strong>Rising storms, rising needs: The call for robust forest science
+                                    infrastructure.</strong> Under review at
+                                <span class="journal">Nature Climate Changey</span>.
+                            </p>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                Alvites Diaz, C.I. et al.
+                                <strong>Fused ICESat-2 and AlphaEarth embeddings reveal asymmetric canopy height change
+                                    across the southeastern United States.</strong> Under review at
+                                <span class="journal">Nature Communications and Sustainability</span>.
+                            </p>
+
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                Xia, J. et al.
+                                <strong>Linking Tree Crown Architecture with Genetics and Management: A Multi-scale
+                                    Assessment
+                                    Using Terrestrial and Mobile Laser Scanning in Loblolly Pine (Pinus taeda L.)
+                                    Trials.</strong> Under review at
+                                <span class="journal">Forest Ecology and Management</span>.
+                            </p>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                Haneda, L.E. et al.
+                                <strong>Structural Similarity Index: A Reference-based Approach to Quantify Forest
+                                    Structural
+                                    Condition Using Spaceborne LiDAR.</strong> Under review at
+                                <span class="journal">Remote Sensing of Environment</span>.
+                            </p>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                Pereira, F.R. et al.
+                                <strong>Evaluating single- and multi-step upscaling strategies for wall-to-wall
+                                    aboveground
+                                    carbon mapping in tropical savannas from multi-source remote sensing data.</strong>
+                                Under review at
+                                <span class="journal">Remote Sensing of Environment</span>.
+                            </p>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                Brock, K.M. et al.
+                                <strong>Estimating longleaf pine (Pinus palustris Mill.) tree age using terrestrial
+                                    laser
+                                    scanning with parametric and artificial intelligence modeling techniques.</strong>
+                                Under review at
+                                <span class="journal">Remote Sensing</span>.
+                            </p>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                Mohan, M. et al.
+                                <strong>Evaluating biophysical and anthropogenic factors impacting mangrove regeneration
+                                    success and mortality in El Salvador using satellite data.</strong>
+                                Under review at
+                                <span class="journal">Regional Studies in Marine Science</span>.
+                            </p>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                Schlickmann, M. B. et al.
+                                <strong>Detecting tree stress in 3D: using structural metrics to predict tree physiology
+                                    and drought tolerance in loblolly pine (Pinus taeda L.).</strong>
+                                Under review at
+                                <span class="journal">Conservation Physiology</span>.
+                            </p>
+                        </div>
+
+
+                        <div class="publication">
+                            <p>
+                                Bueno. I.T. et al.
+                                <strong>Vegetation fuel load and structure maps for the western US.</strong> In
+                                preparation.
+                            </p>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                Bueno. I.T. et al.
+                                <strong>Design and implementation of a multi-scale fuel mapping and decision support
+                                    system for fire management.</strong> In preparation.
+                            </p>
+                        </div>
+
+                        <div class="publication">
+                            <p>
+                                Bueno. I.T. et al.
+                                <strong>Decades of fuel dynamics transform fire regimes in the western US.</strong> In
+                                preparation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="metrics-container">
+
+                    <aside class="metrics-box">
+                        <h3>Cited by</h3>
+                        <table class="metrics-table">
+                            <tr>
+                                <th></th>
+                                <th>All</th>
+                                <th>Since 2021</th>
+                            </tr>
+                            <tr>
+                                <td>Citations</td>
+                                <td>503</td>
+                                <td>384</td>
+                            </tr>
+                            <tr>
+                                <td>h-index</td>
+                                <td>14</td>
+                                <td>12</td>
+                            </tr>
+                        </table>
+                        <!-- Hidden data table for citation counts -->
+                        <table id="citations-data" style="display:none;">
+                            <tr>
+                                <th>Year</th>
+                                <th>Citations</th>
+                            </tr>
+                            <tr>
+                                <td>2019</td>
+                                <td>45</td>
+                            </tr>
+                            <tr>
+                                <td>2020</td>
+                                <td>51</td>
+                            </tr>
+                            <tr>
+                                <td>2021</td>
+                                <td>63</td>
+                            </tr>
+                            <tr>
+                                <td>2022</td>
+                                <td>59</td>
+                            </tr>
+                            <tr>
+                                <td>2023</td>
+                                <td>55</td>
+                            </tr>
+                            <tr>
+                                <td>2024</td>
+                                <td>64</td>
+                            </tr>
+                            <tr>
+                                <td>2025</td>
+                                <td>83</td>
+                            </tr>
+                            <tr>
+                                <td>2026</td>
+                                <td>59</td>
+                            </tr>
+                        </table>
+                        <!-- Chart area -->
+                        <div class="chart-wrapper">
+                            <div class="y-axis" id="y-axis"></div>
+                            <div class="bar-chart" id="bar-chart"></div>
+                        </div>
+                    </aside>
+                    <!-- Co-author travel video -->
+                    <div class="metrics-video">
+                        <h3>Where are my collaborators?</h3>
+
+                        <video autoplay muted loop playsinline preload="auto">
+                            <source src="images/visited-places.webm" type="video/webm">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                    <!-- Image below the chart box -->
+                    <div class="metrics-image">
+                        <div class="photo-track">
+
+                            <img src="images/conference1.png" alt="">
+                            <img src="images/conference2.png" alt="">
+                            <img src="images/conference3.png" alt="">
+                            <img src="images/conference4.png" alt="">
+                            <img src="images/awards1.png" alt="">
+                            <img src="images/awards2.png" alt="">
+                            <img src="images/fieldwork1.png" alt="">
+                            <img src="images/fieldwork2.png" alt="">
+                            <img src="images/fieldwork3.png" alt="">
+                            <img src="images/fieldwork4.png" alt="">
+                            <img src="images/teaching1.png" alt="">
+                            <img src="images/teaching2.png" alt="">
+                            <img src="images/teaching3.png" alt="">
+                            <img src="images/teaching4.png" alt="">
+
+                            <!-- duplicate for seamless loop -->
+                            <img src="images/conference1.png" alt="">
+                            <img src="images/conference2.png" alt="">
+                            <img src="images/conference3.png" alt="">
+                            <img src="images/conference4.png" alt="">
+                            <img src="images/awards1.png" alt="">
+                            <img src="images/awards2.png" alt="">
+                            <img src="images/fieldwork1.png" alt="">
+                            <img src="images/fieldwork2.png" alt="">
+                            <img src="images/fieldwork3.png" alt="">
+                            <img src="images/fieldwork4.png" alt="">
+                            <img src="images/teaching1.png" alt="">
+                            <img src="images/teaching2.png" alt="">
+                            <img src="images/teaching3.png" alt="">
+                            <img src="images/teaching4.png" alt="">
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+        </section>
+
+        <section id="products" class="page-section">
+            <h2>Products</h2>
+            <p>Coming soon...</p>
+        </section>
+
+        <section id="contact" class="page-section">
+
+            <div class="contact-container">
+                <a href="mailto:ithomazbueno@ufl.edu" class="contact-icon" title="Email">
+                    <img src="images/email.png" alt="Email">
+                </a>
+
+                <a href="https://scholar.google.com/citations?user=KfRYv5sAAAAJ&hl=en" target="_blank"
+                    class="contact-icon" title="Google Scholar">
+                    <img src="images/google.png" alt="Google Scholar">
+                </a>
+
+                <a href="https://www.researchgate.net/profile/Inacio-Bueno?ev=hdr_xprf" target="_blank"
+                    class="contact-icon" title="ResearchGate">
+                    <img src="images/researchgate.png" alt="ResearchGate">
+                </a>
+
+                <a href="https://www.linkedin.com/in/inacio-bueno-59753851/" target="_blank" class="contact-icon"
+                    title="LinkedIn">
+                    <img src="images/linkedin.png" alt="LinkedIn">
+                </a>
+
+                <a href="https://x.com/inaciotbueno" target="_blank" class="contact-icon" title="X">
+                    <img src="images/xlogo.png" alt="X">
+                </a>
+
+                <a href="https://orcid.org/0000-0002-6662-3396" target="_blank" class="contact-icon" title="ORCID">
+                    <img src="images/orcid.png" alt="X">
+                </a>
+
+                <a href="http://lattes.cnpq.br/0977995688128517" target="_blank" class="contact-icon"
+                    title="Curriculo Lattes">
+                    <img src="images/lattes.png" alt="X">
+                </a>
+
+                <a href="https://github.com/inaciotbueno" target="_blank" class="contact-icon" title="GitHub">
+                    <img src="images/github.png" alt="X">
+                </a>
+            </div>
+
+            <div class="map-container">
+                <div class="map-box">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.4944496884676!2d-82.34291688499536!3d29.643600017143083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e8a3460d69bb01%3A0x311bdb60f0f82a0f!2sNewins%20Ziegler%20Hall%2C%20Gainesville%2C%20FL%2032611!5e0!3m2!1sen!2sus!4v1690450000000!5m2!1sen!2sus"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <div class="map-gif">
+                    <img src="images/gators2.gif" alt="UF Gators">
+                </div>
+            </div>
+
+
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
