@@ -325,10 +325,21 @@ main {
     flex-direction: column;
     gap: 10px;                 /* optional spacing */
     animation: scrollUp 45s linear infinite;
+    will-change: transform;
 }
 
 .metrics-image:hover .photo-track {
     animation-play-state: paused;
+}
+
+@keyframes scrollUp {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        /* track content is duplicated once, so -50% loops seamlessly */
+        transform: translateY(-50%);
+    }
 }
 
 .photo-track img {
