@@ -437,7 +437,7 @@ main {
   transition: transform 0.2s;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   #products .product-row {
     flex-direction: column;
     align-items: center;
@@ -597,13 +597,47 @@ main {
   color: #888;
 }
 
-/* portrait: button and sponsors go below the whole card content */
-@media (orientation: portrait) {
-  .project-figure,
-  .project-body {
-    display: contents;
+/* card children sit directly in the card grid so rows can be aligned */
+.project-figure,
+.project-body {
+  display: contents;
+}
+
+/* landscape: logo box matches the text block, sponsors align with the button */
+@media (orientation: landscape) and (min-width: 601px) {
+  .project-card {
+    row-gap: 0;
   }
 
+  .project-figure > img {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: stretch;
+    height: auto;
+    min-height: 200px;
+  }
+
+  .project-text {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .project-sponsors {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+  }
+
+  .project-link {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    margin: 0;
+  }
+}
+
+/* portrait: button and sponsors go below the whole card content */
+@media (orientation: portrait) {
   .project-figure > img { order: 1; }
   .project-text { order: 2; }
 
